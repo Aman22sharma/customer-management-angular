@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'edit/:id', component: EditCustomerComponent, resolve: { customer: CommonService } },
   { path: 'list', component: ListCustomerComponent },
   { path: 'view/:id', component: ViewCustomerComponent, resolve: { customer: CommonService } },
-  { path: '', redirectTo: 'list', pathMatch: 'full' }, // Default route
+  { path: '', component: ListCustomerComponent }, // Default route
 ];
 
 @NgModule({
