@@ -1,0 +1,36 @@
+<div class="main-container">
+  <h2>Customer List</h2>
+  <div class="header-container">
+    <div>
+      <button (click)="addCustomer()" class="btn btn-primary">Add</button>
+    </div>
+    <div class="form-input">
+      <input [(ngModel)]="filerValue" type="text" class="form-control search-input" placeholder="Search company name.."
+        required>
+    </div>
+  </div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Full Name</th>
+        <th scope="col">Company Name</th>
+        <th scope="col">City</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of customerList | searchPipe : filerValue; index as i">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{customer?.firstname}} {{customer?.lastname}}</td>
+        <td>{{customer?.companyname}}</td>
+        <td>{{customer?.city}}</td>
+        <td>
+          <button (click)="updateCustomer(customer)" class="btn btn-primary action">Edit</button>
+          <button (click)="deleteCustomer(customer)" class="btn btn-danger action">Delete</button>
+          <button (click)="viewCustomer(customer)" class="btn btn-primary action">View</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

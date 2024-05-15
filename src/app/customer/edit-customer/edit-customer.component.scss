@@ -1,0 +1,24 @@
+.main-container {
+  padding: 30px;
+}
+
+.main-container {
+
+  .title,
+  .submit {
+    margin: 15px;
+  }
+}
+
+.form-input {
+  margin: 15px;
+}
+
+.form-input>input {
+  height: 60px;
+  font-size: 20px;
+}
+
+.form-input>label {
+  margin-bottom: 4px;
+}

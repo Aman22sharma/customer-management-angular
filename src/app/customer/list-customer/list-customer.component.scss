@@ -1,0 +1,23 @@
+.main-container{
+  padding: 30px;
+}
+
+.main-container{
+  .header-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-container>.form-input>input {
+      width: 400px;
+      height: 40px;
+      font-size: 20px;
+  }
+  .header-container>div{
+    justify-content: space-around;
+  }
+}
+
+table>tbody>tr>td>.action{
+  margin: 4px;
+}
