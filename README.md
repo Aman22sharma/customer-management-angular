@@ -1,3 +1,14 @@
+#### Customer List
+![Image](https://github.com/user-attachments/assets/f495fa66-43f9-4135-b2c6-7d396772f8d2)
+
+#### Add Customer
+![Image](https://github.com/user-attachments/assets/db9c65dd-3aa0-4063-a16b-6ea8ac01fb27)
+
+#### Update Customer
+![Image](https://github.com/user-attachments/assets/b110ebf9-de64-4347-83b1-a84391dcda9b)
+
+#### Customer Details
+![Image](https://github.com/user-attachments/assets/a9c30a9c-10d8-4287-802c-17a6bd6e579a)
 # CustomerMgmtAssesment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
